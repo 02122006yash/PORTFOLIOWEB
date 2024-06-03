@@ -1,0 +1,465 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   text-decoration: none;
+}
+a{
+  text-decoration: none;
+  color: #2D3035;
+}
+
+body {
+    background-image: url(background.jpg);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.container {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+.personal-details {
+    position: relative;
+    margin-top: 100px;
+    margin-left: 80px;
+    height: 500px;
+    background-color: #2D3035;
+    color: white;
+    width: 270px;
+    border: 2px solid red;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-right: 100px;
+    padding: 20px;
+}
+
+.img1 {
+    position: absolute;
+    top: -60px;
+    left: 50%;
+    transform: translateX(-50%);
+    height: 150px;
+    width: 150px;
+    background-image: url(yash2.jpg);
+    background-size: cover;
+    background-position: center;
+    border-radius: 50%;
+    border: 3px solid white;
+}
+
+img {
+    height: 160px;
+    width: 160px;
+}
+
+.personal-details h4 {
+    margin-top: 4rem;
+    font-size: 1.5em;
+}
+
+.social-media {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    margin-top: 20px;
+    
+}
+.apps {
+    font-size: 1.5em;
+    cursor: pointer;
+    background-color: #DFDFDA;
+    padding: 2%;
+    border-radius: 50%;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+.apps:hover{
+    transform: scale(1.05);
+}
+
+#insta {
+    color: #E1306C;
+}
+
+#git {
+    color: #2D3035;
+}
+
+#twitter {
+    color: #405DE6;
+}
+
+#linkedin {
+    color: #5851DB;
+}
+
+.details {
+    margin-top: 20px;
+    border: 2px solid #DFDFDA;
+    border-radius: 5%;
+    background-color: #DFDFDA;
+    padding: 10px;
+    color: #2D3035;
+    width: 100%;
+}
+
+.detail-contact {
+    margin-bottom: 10px;
+    border-bottom: 0.5px solid #FBFCFC;
+    box-shadow: 5px 5px 9px 2px rgba(246, 9, 9, 0.1);
+    border-radius: 5%;
+    padding: 5px;
+}
+
+.cv {
+    margin-top: 20px;
+    border-radius: 5%;    
+}
+
+.cv button {
+    padding: 10px 20px;
+    border: none;
+    background-color: #E1306C;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+}
+
+.cv button:hover {
+    background-color: #c91e5a;
+}
+
+.select-area {
+    width: 400px;
+    background-color: #2D3035;
+    height: fit-content;
+    border: 2px solid whitesmoke;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: -25%;
+    margin-left: 150px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.area {
+    background-color: #DFDFDA;
+    height: 50px;
+    width: 300px;
+    margin-inline: 5px;
+    border-radius: 10%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #2D3035;
+    cursor: pointer;
+    font-size: 14px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+
+}
+
+.area i {
+    font-size: 1.1em;
+}
+
+.area:hover {
+    background-color: #b8b8b4;
+    color: white;
+    transform: scale(1.05);
+}
+
+.portfolio {
+    height: fit-content;
+    width: 700px;
+    background-color: #b4b4b3;
+    margin-left: 40%;
+    margin-top: -25%;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.portfolio h1{
+    font-weight: 700;
+    margin-bottom: 50px;
+}
+
+.portfolio span{
+  color: #c91e5a;
+  font-weight: 900;
+  font-size: xx-large;
+}
+.container2 h3 {
+    color: #c91e5a;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container2 h5 {
+  color:#405DE6;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  padding-bottom: 15px;
+  display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ 
+.row-1, .row-2 {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  margin-bottom: 20px;
+}
+
+/* General styles for the divs containing the links */
+.rows-div {
+  height: 180px;
+  width: 180px;
+  background-color: #405DE6;
+  background-size: cover;
+  background-repeat: no-repeat;
+  overflow: hidden;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  transition: transform 0.3s ease;
+  flex-wrap: wrap;
+  display: flex;
+  align-items:flex-end;
+  justify-content: center;
+
+}
+
+/* Specific backgrounds for each div */
+#tictac {
+  background-image: url('tic-tac-toe-game.gif');
+  background-size: cover;
+  background-repeat: no-repeat;
+  overflow: hidden;
+  
+
+}
+
+#rock {
+  background-image: url('rock-paper-scissors-game.gif');
+}
+
+#currency {
+  background-image: url('Dynamic-Currency-Conversion-blog.gif');
+}
+
+#pizza {
+  background-image: url('pizzahut.jpg');
+}
+
+#Quiz {
+  background-image: url('quizimg.jpeg');
+}
+
+#date {
+  background-image: url('date.jpg');
+}
+
+#amazon {
+  background-image: url('amazonimg.jpg');
+  margin-top: 1rem;
+}
+
+/* Hover effect for the divs */
+.rows-div:hover {
+  transform: scale(1.05);
+}
+
+/* Styles for the anchor tags inside the divs */
+.rows-div a {
+  display: flex;
+  flex-direction: column;
+  align-items:center;
+  justify-content:flex-end;
+  height: 100%;
+  text-decoration: none;
+  /* color:rgb(64, 67, 66); */
+  color:#FBFCFC;
+  font-size:16px;
+  font-weight:bolder;
+  margin-bottom: 25px;
+  
+}
+
+.rows-div :hover{
+  color: red;
+}
+
+
+
+
+/*MEDIA QUERRY*//* yash*/
+  @media only screen and (max-width: 767px) {
+    .container {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .personal-details {
+      margin: 50px 0 0 0;
+    }
+  
+    .select-area {
+      width: 90%;
+      margin: 20px 0;
+      flex-wrap: wrap;
+    }
+  
+    .area {
+      width: 45%;
+      margin: 5px;
+    }
+  
+    .portfolio {
+      width: 90%;
+      margin: 0;
+    }
+  
+    
+   
+    .row-1, .row-2 {
+      flex-wrap: wrap;
+    }
+  
+    .rows-div {
+      width: 48%;
+      margin: 5px;
+    }
+  }
+
+  @media only screen and (min-width: 768px) and (max-width: 1023px) {
+    .container {
+      justify-content: center;
+    }
+  
+    .personal-details {
+      margin-right: 50px;
+    }
+  
+    .select-area {
+      margin-left: 50px;
+    }
+  
+    .portfolio {
+      margin-left: 20%;
+    }
+    
+  }
+
+ 
+                /*  claude ai*/
+                /* For screens smaller than 480px (Most smartphones) */
+ @media only screen and (max-width: 479px) {
+  .container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+   .personal-details {
+    margin: 30px 0 0 0;
+    text-align: center;
+  } 
+
+  
+  .details {
+    text-align: left;
+  } 
+
+  .select-area {
+      width: 90%;
+      margin: 20px 0;
+      flex-wrap: wrap;
+    }
+
+  .area {
+    width: 45%;
+    margin: 5px;
+  }
+
+  .portfolio {
+    width: 90%;
+    margin: 0;
+    /* text-align: center; */
+  }
+}
+
+/*@media only screen and (min-width: 480px) and (max-width: 767px) {
+  .container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .personal-details {
+    margin: 50px 0 0 0;
+    text-align: center;
+  }
+
+  .social-media {
+    justify-content: center;
+  }
+
+  .details {
+    text-align: left;
+  }
+
+  .select-area {
+    width: 90%;
+    margin: 20px 0;
+    flex-wrap: wrap;
+  }
+
+  .area {
+    width: 45%;
+    margin: 5px;
+  }
+
+  .portfolio {
+    width: 90%;
+    margin: 0;
+  }
+}
+
+/*@media only screen and (min-width: 768px) and (max-width: 1023px) {
+  .container {
+    justify-content: center;
+  }
+
+  .personal-details {
+    margin-right: 30px;
+  }
+
+  .select-area {
+    margin-left: 30px;
+  }
+
+  .portfolio {
+    margin-left: 10%;
+  }
+} */
+
+
+

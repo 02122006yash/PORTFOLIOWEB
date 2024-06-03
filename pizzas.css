@@ -1,0 +1,377 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    text-decoration: none;
+    border-top-color: rgb(233, 235, 238);
+    border-right-color: rgb(233, 235, 238);
+    border-bottom-color: rgb(233, 235, 238);
+    border-left-color: rgb(233, 235, 238);
+}
+
+
+.main-div{
+               display: flex;
+}
+.order{
+         display: flexbox;
+         align-items: center;
+}
+
+.container-nav{
+         display: flex;
+         justify-content: flex-start;
+         align-items: center;
+         background-color: #fff;
+         border-bottom: 1px solid #e9ebee;
+         box-shadow: 0 4px px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+         color: #231f20;
+        }
+
+.logo-pizza img{
+           height: 100px;
+           width: 150px;
+           background-color: transparent;
+           margin-left: 105px;
+}
+
+ /* img{
+    height: 90px;
+    width: 150px;
+    background-color: transparent;
+} */
+
+.delivery-address{
+                margin-left: 360px;
+                width: 390px;
+                color: #231f20;
+}
+.delivery-address a{
+               color: #231f20;
+}
+.time{
+    margin-left: 20px;
+    width: 140px;
+    border-left: 2px solid #e9ebee;
+    color: #231f20;
+}
+
+.time a{
+  color: #231f20;
+}
+.snack-variety-container{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    /* background-color: whitesmoke; */
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.deals-main{
+         margin-left:105px ;
+         /* background-color: red; */
+         background-color: #fff;
+         color: #231f20;
+         border:1px solid #e9ebee;
+         height: 47px;
+         width: 95px;
+         text-align: center;
+         vertical-align: middle;
+         line-height: 45px;
+}
+.deal{
+    background-color: #fff;
+    color: #231f20;
+    border:1px solid #e9ebee;
+    height: 47px;
+    width: 95px;
+    margin-left: 0.4px;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 47px;
+}
+
+.deals-main:hover{
+  background-color: red;
+}
+
+.deal:hover{
+background-color: red;
+}
+
+.deal a:hover{
+  border-bottom: 1px solid black;
+}
+
+.deals-main a:hover{
+  border-bottom: 1px solid black;
+}
+
+.deal a{
+  color: #231f20;
+}
+
+.deals-main a{
+  color: #231f20;
+}
+
+.vegeterian{
+          width: 72vh;
+          background-color: #fff;
+           color: #231f20;
+          border:1px solid #e9ebee;
+          text-align: center;
+          vertical-align: middle;
+          line-height: 47px;
+          height: 47px;
+}
+
+.vegeterian span a:hover{
+  border-bottom: 1px solid black;
+}
+
+
+/* deals */
+
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .card {
+    /* width: calc(50% - 10px); */
+    width: 500px;
+    margin-bottom: 20px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-right: 90px; /* Added margin-right to create space between cards */
+    margin-top: 7px;  
+  }
+  
+  .cards {
+    /* width: calc(50% - 10px); */
+    width: 500px;
+    margin-bottom: 20px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-left: 90px; 
+    margin-top: 7px;
+  }  
+
+  .card img {
+    width: 100%;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+  }
+  
+  .cards img {
+    width: 100%;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+  }
+  .card-info {
+    padding: 20px;
+  }
+  
+  .card-info h4 {
+    margin-top: 0;
+    color: #231f20;
+  }
+  
+  .card-info p {
+    margin-bottom: 15px;
+    color: #868585;
+  }
+  
+  .card-info button {
+    padding: 10px 20px;
+    background-color: #197f05;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 40vh;
+    display: flex;
+    align-items: flex-end;
+  }
+  
+  .card-info button:hover {
+    background-color: #389825;
+  }
+  
+  /* BASKET */
+.Basket{
+  height: 100vh;
+  width: 500vh;
+  background-color: #fff;
+  box-shadow: 0 8px 9px rgba(0, 0, 0, 0.1);
+  border-left: 0.5px solid gray;
+}
+
+.bask{ 
+                 margin-left: 30%;
+                 margin-top: 12%;
+                 font-weight: 800;
+                 font-size: 21px;
+                 color: #231f20;
+}
+
+.coupon-code{
+                 margin-left: 9%;
+                 margin-right: 8px;
+                 margin-top: 8%; 
+                 border: 0.8px solid gray;
+                 height: 35px;  
+                 vertical-align: middle;
+                 line-height: 35px; 
+                 color: #231f20;      
+}
+
+.coupon-code a{
+  color: #389825;
+}
+.checkout button{
+  padding: 10px 100px;
+    background-color: #80c373;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 10px;
+    margin-top: 190%;
+}
+
+
+
+/* For mobile devices */
+@media only screen and (max-width: 767px) {
+  .main-div {
+    flex-direction: column;
+  }
+
+  .order {
+    width: 100%;
+  }
+
+  .container-nav {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .logo-pizza img {
+    margin-left: 10px;
+  }
+
+  .delivery-address {
+    margin-left: 10px;
+    margin-top: 10px;
+    width: auto;
+  }
+
+  .time {
+    margin-left: 10px;
+    margin-top: 10px;
+    border-left: none;
+    width: auto;
+  }
+
+  .snack-variety-container {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .deals-main,
+  .deal,
+  .vegeterian {
+    width: 48%;
+    margin: 1%;
+  }
+
+  .card-container {
+    justify-content: center;
+  }
+
+  .card,
+  .cards {
+    width: 90%;
+    margin: 5%;
+  }
+
+  .card-info button {
+    margin-left: 0;
+    display: block;
+    margin: 0 auto;
+  }
+
+  .Basket {
+    width: 100%;
+    height: auto;
+    border-left: none;
+  }
+
+  .bask {
+    margin: 20px 10px;
+  }
+
+  .coupon-code {
+    margin: 20px 10px;
+  }
+
+  .checkout button {
+    margin: 20px 10px;
+  }
+}
+
+/* For tablets and small desktops */
+@media only screen and (min-width: 768px) and (max-width: 1199px) {
+  .container-nav {
+    justify-content: space-around;
+  }
+
+  .logo-pizza img {
+    margin-left: 0;
+  }
+
+  .delivery-address {
+    margin-left: 0;
+  }
+
+  .time {
+    margin-left: 0;
+  }
+
+  .deals-main {
+    margin-left: 0;
+  }
+
+  .card,
+  .cards {
+    width: calc(50% - 20px);
+    margin: 10px;
+  }
+
+  .Basket {
+    width: 30%;
+  }
+
+  .bask {
+    margin: 20px 10px;
+  }
+
+  .coupon-code {
+    margin: 20px 10px;
+  }
+
+  .checkout button {
+    margin: 20px 10px;
+  }
+}
+

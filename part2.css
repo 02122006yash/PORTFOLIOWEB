@@ -1,0 +1,200 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    text-decoration: none;
+    border-top-color: rgb(233, 235, 238);
+    border-right-color: rgb(233, 235, 238);
+    border-bottom-color: rgb(233, 235, 238);
+    border-left-color: rgb(233, 235, 238);
+}
+
+
+.main-div{
+               display: flex;
+}
+.order{
+         display: flexbox;
+         align-items: center;
+}
+
+.container-nav{
+         display: flex;
+         justify-content: flex-start;
+         align-items: center;
+         background-color: #fff;
+         border-bottom: 1px solid #e9ebee;
+         box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        }
+
+.logo-pizza img{
+           height: 100px;
+           width: 150px;
+           background-color: transparent;
+           margin-left: 105px;
+}
+
+ /* img{
+    height: 90px;
+    width: 150px;
+    background-color: transparent;
+} */
+
+.delivery-address{
+                margin-left: 360px;
+                width: 390px;
+}
+
+.time{
+    margin-left: 20px;
+    width: 140px;
+    border-left: 2px solid #e9ebee;
+}
+
+.snack-variety-container{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    /* background-color: whitesmoke; */
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.deals-main{
+         margin-left:105px ;
+         background-color: #fff;
+         color: #231f20;
+         border:1px solid #e9ebee;
+         height: 47px;
+         width: 95px;
+         text-align: center;
+         vertical-align: middle;
+         line-height: 45px;
+}
+.deal{
+    background-color: #fff;
+    color: #231f20;
+    border:1px solid #e9ebee;
+    height: 47px;
+    width: 95px;
+    margin-left: 0.4px;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 47px;
+}
+
+.deals-main:hover{
+         background-color: red;
+}
+
+.deal:hover{
+    background-color: red;
+}
+
+.vegeterian{
+          width: 72vh;
+          background-color: #fff;
+           color: #231f20;
+          border:1px solid #e9ebee;
+          text-align: center;
+          vertical-align: middle;
+          line-height: 47px;
+          height: 47px;
+}
+
+
+
+/* deals */
+
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-evenly;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.card {
+    width: calc(25% - 50px); /* Four cards per row */
+    margin-bottom: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    overflow: hidden;
+    margin-top: 30px;
+}
+
+.card img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+.card-content {
+    padding: 20px;
+}
+
+.card h3 {
+    font-size: 1.2rem;
+    margin: 0;
+}
+
+.card p {
+    font-size: 14px;
+    color: #777;
+    margin-top: 25px;
+}
+
+.price-btn {
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+        padding: 10px 70px;
+          background-color: #197f05;
+         }   
+
+
+.price-btn:hover {
+    background-color: #0056b3;
+}
+
+  /* BASKET */
+.Basket{
+  height: 100vh;
+  width: 500vh;
+  background-color: #fff;
+  box-shadow: 0 8px 9px rgba(0, 0, 0, 0.1);
+  border-left: 0.5px solid gray;
+}
+
+.bask{ 
+                 margin-left: 30%;
+                 margin-top: 12%;
+                 font-weight: 800;
+                 font-size: 21px;
+                 color: #231f20;
+}
+
+.coupon-code{
+                 margin-left: 9%;
+                 margin-right: 8px;
+                 margin-top: 8%; 
+                 border: 0.8px solid gray;
+                 height: 35px;  
+                 vertical-align: middle;
+                 line-height: 35px;       
+}
+
+.checkout button{
+  padding: 10px 100px;
+    background-color: #197f05;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 10px;
+    margin-top: 190%;
+}
